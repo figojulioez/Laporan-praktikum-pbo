@@ -18,8 +18,8 @@ public class Pegawai {
     }
     
     public void tampilkanInfo() {
-        System.out.println("Nama Pegawai : " + this.namaPegawai);
-        System.out.println("Gaji : " + this.gaji);
+        System.out.println("Nama Pegawai : " + this.getNamaPegawai());
+        System.out.println("Gaji : " + this.getGaji());
     }
     
     public void setNamaPegawai (String namaPegawai_) {

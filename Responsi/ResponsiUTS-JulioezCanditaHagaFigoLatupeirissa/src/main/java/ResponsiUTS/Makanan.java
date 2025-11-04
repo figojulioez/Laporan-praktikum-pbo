@@ -18,8 +18,9 @@ public class Makanan extends Produk{
     
     @Override
     public void tampilkanInfo() {
-        System.out.println("Nama Produk : " + super.getNamaProduk());
-        System.out.println("Harga : " + this.getHarga());
+//        System.out.println("Nama Produk : " + super.getNamaProduk());
+//        System.out.println("Harga : " + this.getHarga());
+        super.tampilkanInfo();
         System.out.println("Tanggal Kadaluarsa : " + this.tanggalKadaluarsa);
     }
 }

@@ -10,12 +10,12 @@ package ResponsiUTS;
  */
 public class Main {
      public static void main(String[] args) {
-        Elektronik laptop = new Elektronik("Laptop", 15000000, 2);
+        Produk laptop = new Elektronik("Laptop", 15000000, 2);
         laptop.tampilkanInfo();
 
         System.out.println();
 
-        PegawaiTetap figo = new PegawaiTetap("Julioez Candita Haga Figo Latupeirissa", 5000000, 1000000);
+        Pegawai figo = new PegawaiTetap("Julioez Candita Haga Figo Latupeirissa", 5000000, 1000000);
         figo.tampilkanInfo();
 
         System.out.println();

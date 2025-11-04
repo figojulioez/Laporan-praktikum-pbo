@@ -13,13 +13,13 @@ public class Produk {
     private int harga;
     
     public Produk (String namaProduk_, int harga_) {
-        this.namaProduk = namaProduk_;
-        this.harga = harga_;
+        this.setNamaProduk(namaProduk_);
+        this.setHarga(harga_);
     }
     
     public void tampilkanInfo() {
-        System.out.println("Nama Produk : " + this.namaProduk);
-        System.out.println("Harga : " + this.harga);
+        System.out.println("Nama Produk : " + this.getNamaProduk());
+        System.out.println("Harga : " + this.getHarga());
     }
     
     public void setNamaProduk (String namaProduk_) {

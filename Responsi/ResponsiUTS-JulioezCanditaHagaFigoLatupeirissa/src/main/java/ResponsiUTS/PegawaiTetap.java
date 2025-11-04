@@ -16,9 +16,11 @@ public class PegawaiTetap extends Pegawai {
         this.tunjangan = tunjangan_;
     }
     
+    @Override
     public void tampilkanInfo() {
-        System.out.println("Nama Pegawai : " + super.getNamaPegawai());
-        System.out.println("Gaji : " + super.getGaji());
+//        System.out.println("Nama Pegawai : " + super.getNamaPegawai());
+//        System.out.println("Gaji : " + super.getGaji());
+        super.tampilkanInfo();
         System.out.println("Tunjangan : " + this.tunjangan);
     }
 }

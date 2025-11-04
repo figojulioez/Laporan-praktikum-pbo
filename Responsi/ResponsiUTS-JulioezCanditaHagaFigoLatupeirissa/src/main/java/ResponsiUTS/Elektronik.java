@@ -18,8 +18,9 @@ public class Elektronik extends Produk {
     
     @Override
     public void tampilkanInfo() {
-        System.out.println("Nama Produk : " + super.getNamaProduk());
-        System.out.println("Harga : " + this.getHarga());
+//        System.out.println("Nama Produk : " + super.getNamaProduk());
+//        System.out.println("Harga : " + this.getHarga());
+        super.tampilkanInfo();
         System.out.println("Garansi : " + this.tahun + " tahun");
     }
 }

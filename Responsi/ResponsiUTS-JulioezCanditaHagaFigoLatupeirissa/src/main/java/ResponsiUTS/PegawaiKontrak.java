@@ -16,9 +16,11 @@ public class PegawaiKontrak extends Pegawai{
         this.kontrak = kontrak_;
     }
     
+//    @Override
     public void tampilkanInfo() {
-        System.out.println("Nama Pegawai : " + super.getNamaPegawai());
-        System.out.println("Gaji : " + super.getGaji());
+//        System.out.println("Nama Pegawai : " + super.getNamaPegawai());
+//        System.out.println("Gaji : " + super.getGaji());
+        super.tampilkanInfo();
         System.out.println("Lama Kontrak : " + this.kontrak + " bulan");
     }
 }
